@@ -191,3 +191,6 @@ impl KickProbReceipt {
         Ok(())
     }
 }
+
+#[cfg(test)]
+mod test;

@@ -194,3 +194,6 @@ impl KickProbSubscription {
 // Avoid "unused" warnings on Symbol in minimal builds.
 #[allow(dead_code)]
 const _TAG: Symbol = soroban_sdk::symbol_short!("kickprob");
+
+#[cfg(test)]
+mod test;
