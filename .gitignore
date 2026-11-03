@@ -1,0 +1,11 @@
+target/
+Cargo.lock
+.vscode/
+.idea/
+.DS_Store
+*.wasm
+*.wasm.d
+.env
+.env.*
+!.env.example
+node_modules/
