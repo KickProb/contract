@@ -1,0 +1,17 @@
+[package]
+name = "kickprob-subscription"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "KickProb subscription contract — accepts USDC on Stellar for BASIC / PREMIUM / VIP plans"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
